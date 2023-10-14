@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Srijita's Portfolio
+    </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(8, 9, 95);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(97, 53, 139);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 20px
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            margin: 20px
+        }
+
+        nav ul li a:hover {
+            color: blueviolet;
+            font-size: 1.2rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 30px;
+        }
+
+        .firstSection>div {
+            width: 40%;
+
+        }
+
+        .leftSection {
+            font-size: 2.2rem;
+        }
+
+        .rightSection img {
+            width: 60%;
+            margin: 20px;
+
+        }
+
+        .lavender {
+            color: blueviolet;
+        }
+
+        #element {
+            color: blueviolet;
+        }
+
+        .AboutMe {
+            align-items: center;
+            margin: 50px;
+        }
+
+        .secondSection h3 {
+            margin: 40px;
+        }
+
+        .card-body {
+            color: white;
+        }
+
+        .thirdSection {
+            text-align: left;
+            margin: 40px;
+        }
+
+        .classic-list {
+            list-style-type: none;
+            padding: 0;
+            font-family: 'Mukta', sans-serif;
+        }
+
+        .classic-list li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+            color: white;
+        }
+
+        .classic-list i {
+            position: absolute;
+            left: 0;
+            top: 1px;
+            font-size: 18px;
+            color: blueviolet;
+            margin-right: 10px;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+
+            transition: transform 0.3s ease;
+
+        }
+
+        .projectSection h3 {
+            margin: 40px;
+        }
+
+        .project-inner-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 30px;
+            align-items: stretch;
+
+        }
+
+        .project-card {
+            border: 2px solid rgb(213, 160, 219);
+            border-radius: 5px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            height: 100%;
+        }
+
+        .Project-description {
+            color: rgb(228, 200, 237);
+
+        }
+
+        .project-container {
+            margin: 0 40px;
+        }
+
+        .DSAProg {
+            margin: 40px;
+        }
+
+        .contactIcon {
+            width: 40px;
+            height: 40px;
+            margin: 40px;
+        }
+
+        .contactDetails {
+            margin: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> Srijita's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#Home" Home></a></li>
+                    <li><a href="#About Me">About Me</a></li>
+                    <li><a href="#DSA Progress">DSA Progress</a></li>
+                    <li><a href="#Education">Education</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact Me">Contact Me</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <section id="Home" class="firstSection">
+            <div class="leftSection">
+                Hi! I am <span class="lavender">Srijita</span>
+                <div>and I am a <br>
+                    <span id="element"></span>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="pfp.jpg">
+
+            </div>
+        </section>
+        <section id="About Me" class="AboutMe">
+            <h2>About Me</h2>
+            <p>I am Srijita Saha and I hail from a small town near Mumbai. <br>
+                I got introduced to the world of coding due to my school curriculum during 11th-12th standard. However,
+                I realised it's potential and decided to major in Computer Science. When I started college in September
+                2022, I was a young and impressionable person who was just introduced to a whole new world of Computer
+                Science.<br>
+                Currently, as I study in my 2nd year, I have matured and posses a better understanding of about 5 coding
+                languages and I want to keep learning more, as I go. <br>
+                My coding passions lie in Data Analysis and Web development, even though I've only started learning the
+                later.</p>
+            <p>When I'm away from keyboard, you can find me at my dance rehearsals, hanging out with my friends or
+                watching Anime with full concentration.</p>
+        </section>
+        <section id="DSA Progress" class="DSAProg">
+            <h3>What I've learnt in DSA so far...</h3>
+            <p>Throughout this course, I've delved into the fundamental concepts of computation, algorithms, and data
+                structures. I began by grasping the essence of elementary data types and abstract data structures. I
+                honed my problem-solving skills with practical examples, including linear and binary search algorithms,
+                and learned to gauge algorithm efficiency in terms of running time and memory consumption,
+                distinguishing between best, worst, and average case complexities.</p>
+
+            <p>The journey continued with a deep dive into iterative and recursive algorithms, the classic Towers of
+                Hanoi. These mathematical tools were instrumental in dissecting algorithm efficiency. Later, I ventured
+                into various data structures, including linear ones like arrays and linked lists, as well as non-linear
+                structures like trees, heaps, priority queues, graphs, and hash tables, each with its own unique
+                applications and representations. This comprehensive journey has equipped me with a strong foundation in
+                data structures and algorithms, enabling me to approach a wide range of computational problems with
+                confidence.</p>
+        </section>
+        <section id="Education" class="thirdSection">
+            <h3>Education</h3>
+            <ul class="classic-list">
+                <li><i class="fa fa-graduation-cap"></i>
+                    <span style="font-size: 1.5rem;"> B.Tech in Computer Science Engineering with specialisation in
+                        Cloud Computing<br></span>
+                    <span style="font-size: 1.1rem; color: violet;"> SRMIST,Chennai (2022-present)<br></span>
+                    <span style="font-size: 1.1rem; color: rgb(222, 180, 240);">CPGA: 8.34<br></span>
+                </li>
+                <li><i class="fa fa-graduation-cap"></i>
+                    <span style="font-size: 1.5rem;"> 12th Standard- CBSE board<br></span>
+                    <span style="font-size: 1.1rem; color: violet;">Teen's World Corporate School, Boisar
+                        (2020-2022)<br></span>
+                    <span style="font-size: 1.1rem; color: rgb(222, 180, 240);">Percentage: 84.6%<br></span>
+                <li><i class="fa fa-graduation-cap"></i>
+                    <span style="font-size: 1.5rem;"> 10th Standard- CBSE board<br></span>
+                    <span style="font-size: 1.1rem; color: violet;">Atomic Energy Central School-3, Tarapur<br></span>
+                    <span style="font-size: 1.1rem; color: rgb(222, 180, 240)">Percentage: 91% <br></span>
+                </li>
+            </ul>
+        </section>
+        <section id="Skills" class="secondSection">
+            <h3>Skills</h3>
+            <div class="card-deck">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <div class="card border-dark mb-3 card-hover"
+                                style="background-color: blueviolet; width: auto;">
+                                <div class="card-body">
+                                    <h4 class="card-title"> C</h4>
+                                    <p class="card-text">Learnt C during the first semester of Engineering. Enjoyed the
+                                        learning
+                                        process and worked on some mini projects.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 mb-3">
+                            <div class="card border-dark mb-3 card-hover"
+                                style="background-color: blueviolet; width: auto;">
+                                <div class="card-body">
+                                    <h4 class="card-title">C++</h4>
+                                    <p class="card-text">Learnt C++ during the second semester of Engineering.
+                                        Learned the
+                                        concepts of OODP through C++. Also, used C++ as the primary language to
+                                        learn DSA in
+                                        third Semester.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 mb-3">
+                            <div class="card border-dark mb-3 card-hover"
+                                style="background-color: blueviolet; width: auto">
+                                <div class="card-body">
+                                    <h4 class="card-title">Python</h4>
+                                    <p class="card-text">Started learning Python during 11th-12th standard, then
+                                        continued
+                                        learning in first semester again. Further expanded the knowledge on
+                                        Python,
+                                        specifically NumPy and Pandas and created EDA projects. Working on an
+                                        intermediate level
+                                        project as of now.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 mb-3">
+                            <div class="card border-dark mb-3 card-hover"
+                                style="background-color: blueviolet; width: auto;">
+                                <div class="card-body">
+                                    <h4 class="card-title">SQL</h4>
+                                    <p class="card-text">Gained knowledge on SQL during 11th-12th standards
+                                        and got
+                                        re-introduced to it in my third semester. Possess the knowledge of
+                                        integrating
+                                        Python and Java into SQL to provide a Data base.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 mb-3">
+                            <div class="card border-dark mb-3 card-hover"
+                                style="background-color: blueviolet; width: auto;">
+                                <div class="card-body">
+                                    <h4 class="card-title">Java</h4>
+                                    <p class="card-text">Started learning Java in my third semester and
+                                        gained the knowledge of
+                                        basic priciple implementations of Java. Working on an ongoing
+                                        Java project as of now.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 mb-3">
+                            <div class="card border-dark mb-3 card-hover"
+                                style="background-color: blueviolet; width: auto;">
+                                <div class="card-body">
+                                    <h4 class="card-title">HTML/CSS</h4>
+                                    <p class="card-text">A beginner in HTML and CSS. So far, have
+                                        experimented with different
+                                        elements and incorporated them into this website and having
+                                        fun with the learning process.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+
+        <section id="Projects" class="projectSection">
+            <h3>Projects</h3>
+            <div class="project-container">
+                <div class="project-inner-container">
+                    <div class="project-card">
+                        <h4>Matrix Calculator</h4>
+                        <p class="Project-description">Prepared this project as a learner in Python, using the NumPy and
+                            Pandas module.<br>
+                            In this project, we could take an input of two matrices and perform addition, subtraction,
+                            multiplication, division, etc.<br>
+                            It was a very basic beginner-friendly project made for PPS mini project assessment, that
+                            took me
+                            and my teammate approximately 72 hrs
+                            to complete.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Banking System</h3>
+                        <p class="Project-description">This project was prepared to demonstrate the implementation of
+                            Object
+                            Oriented Programming using C++.<br>
+                            We made a secure banking system with encryption. Data encapsulation, data hiding,
+                            abstraction,
+                            inheritance, polymorphism, etc were all used in the project.<br>
+                            It was a beginner-intermediate level project for OODP mini project in the second semester.
+                        </p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Voice-run Scientific Calculator</h3>
+                        <p class="Project-description">This Python project aims to implement voice recognition module,
+                            pyttsx3 and Wolfram Alpha integration modules to help aid a faster calculation process<br>
+                            This is a work in progress and is scheduled to be finished by Mid-November. This project is
+                            being made for APP project assessment in third semester. </p>
+                    </div>
+                    <div class="project-card">
+                        <h3>LAN based Chat Application</h3>
+                        <p class="Project-description">This project is being built using Java. The Chat Application
+                            mainly
+                            aims to make inter-company communication safe and secure.<br>
+                            The use of LAN helps avoid relying on the internet for communication and thus makes it more
+                            secure and prevents communication leaks.<br>
+                            This is also a work in progress, scheduled to be finished by Mid-November. This project is
+                            being
+                            made for APP project assessment in third semester.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>EDA</h3>
+                        <p class="Project-description">Prepared a basic Exploratory Data Analysis project that is
+                            suitable
+                            for newcomers to the domain of Data Analysis.<br>
+                            I obtained a dataset on CO2 emissions produced by different vehicles and their make,
+                            company,
+                            engine,etc. I cleaned the data to a readable and tangible amount and then went ahead with
+                            the
+                            analysis. I used NumPy, Pandas and matplotlib modules on Jupyter Notebook for this project.
+                        </p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Graphics using DRM/KMS dumb buffers</h3>
+                        <p class="Project-description">We're using DRM/KMS mode setting in order to draw graphics on the
+                            screen
+                            of a TTY without graphics support inbuilt. This project is work in progress and is scheduled
+                            to
+                            be finished by Mid-November. This is a project for OS project assessment.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Contact Me" class="contactDetails">
+            <h3>Contact Me</h3>
+            Feel free to contact me anywhere on these
+            <div class="contactIcons">
+                <a href="mailto:srijitaspeaks@gmail.com" class="contactLink"><img src="icons8-gmail-48.png" alt="Email"
+                        class="contactIcon"></a>
+                <a href="https://github.com/IndentTab/IndentTab" class="contactLink"><img src="github-mark-white.png"
+                        alt="GitHub" class="contactIcon"></a>
+                <a href="https://www.linkedin.com/in/srijita-saha-5460b9215/" class="contactLink"><img
+                        src="LI-In-Bug.png" alt="LinkedIn" class="contactIcon"></a>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['budding developer', 'amateur WebDev', 'music editor', 'classical dancer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
